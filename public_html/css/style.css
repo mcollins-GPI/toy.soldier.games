@@ -1,0 +1,23 @@
+body {
+    background-image: url('../images/metalBackground.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    color: white;
+    font-family: 'Cutive Mono', monospace;
+}
+
+p {
+    background-color: rgba(150,150,150,.5);
+    padding: 0.5em;
+    border-radius: 3px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.highlight {
+    background-color: rgba(150,150,150,.5);
+    padding: 0.5em;
+    border-radius: 3px;
+    margin-bottom: 2em;
+    font-family: 'Roboto Slab', serif;
+}
