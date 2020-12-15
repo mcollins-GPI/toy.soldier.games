@@ -25,22 +25,16 @@ p {
 }
 
 table {
-    /* background-color: #212529; */
     border: 1px solid black;
     border-radius: 5px;
-    /* width: 50%; */
     border-spacing: 0px;
     border-collapse: separate;
 }
-/* table th {
-    font-weight: 600;
-    font-size: 1.1em;
-    text-align: center;
-    background: #c6c6c6;
+
+h2 {
+    margin-top: 2em;
 }
-table td {
-    background: transparent;
-} */
+
 
 .highlight {
     background-color: rgba(150,150,150,.8);
@@ -55,4 +49,29 @@ table td {
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
+}
+.warning {
+    font-size: 4em;
+    color: red;
+    text-align: center;
+}
+.hidden {
+    display: none;
+}
+
+.pulsate {
+    -webkit-animation: pulsate 3s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0.5;
+}
+@-webkit-keyframes pulsate {
+    0% { 
+        opacity: 0.5;
+    }
+    50% { 
+        opacity: 1.0;
+    }
+    100% { 
+        opacity: 0.5;
+    }
 }

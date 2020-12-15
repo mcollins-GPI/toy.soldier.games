@@ -19,62 +19,169 @@
         <div class="col-2 sidebar navmenu">
             <h1>Menu</h1>
             <ul>
-                <li><a href="#standard-rules">Standard Rules</a></li>
+                <li><a href="#tutorial-rules">Tutorial Rules</a></li>
                 <ul>
+                    <li><a href="#tutorial-rules-army-creation">The Squad</a></li>
+                    <li><a href="#tutorial-rules-setup">Setup</a></li>
+                    <li><a href="#tutorial-rules-turn-description">Turn Description</a></li>
+                </ul>
+                <li><a href="#standard-rules">Standard Rules</a></li>
+                <!-- <ul>
                     <li><a href="#standard-rules-setup">Setup</a></li>
                     <li><a href="#standard-rules-army-creation">Army Creation</a></li>
                     <li><a href="#standard-rules-turn-description">Turn Description</a></li>
-                </ul>
+                </ul> -->
             </ul>
         </div>
         <div class="col-4">
-            <h1 id="standard-rules">Standard Rules</h1>
-            <p>
-                The basic needs of the game are a place to play, a sack of army men, a tape measure or yardstick, and a
-                six-sided die. Realism is not a goal, only fun. Also, this is intended to be a framework and we can
-                update it as necessary to address balance issues, and add new features.
-            </p>
-            <h2 id="standard-rules-setup">Setup</h2>
-            <p>
-                The players need to set up the board and create armies before the game can start.
-            </p>
-
-            <h3>Terrain</h3>
-            <p>
-                Setup consists of clearing the table, and setting up any desired obstacles with books, cans, legos,
-                whatever is handy. Both players should agree on obstacle placement. Players should also agree on the
-                goal/setting of the engagement, points value of their respective armies, and terms of victory
-                (annihilation, capture the flag, etc.).
-            </p>
-
-            <h4>Cover</h4>
-            <p>
-                If any trooper is more than half concealed by terrain he is considered in cover, and is has a +1
-                modifier to hit (e.g. if a trooper is within half range the shooter would need to roll a 6 instead of a
-                5+). If a target trooper is at more than half range (and in cover), they are considered safe from fire.
-                Vehicles do not benefit from cover due to their size.
-            </p>
-
-            <h3>Possible Scenario: Capture the Flag</h4>
+            <div id="tutorial-rules">
+                <h1>Tutorial Rules</h1>
                 <p>
-                    Agree on a location and place a marker on the board to designate a strategic objective. Roll 2D6 to
-                    determine the number of troopers (sargents, regular guys, etc.) you need to have within 1D6 inches
-                    at the beginning of 1D3 turns for that player (e.g. 7 troopers within 4" of the marker for the start
+                    The basic needs of the game are a place to play, a sack of army men, a tape measure or yardstick,
+                    and a six-sided dice (D6). Realism is not a goal, only fun.
+                </p>
+
+                <h2 id="tutorial-rules-army-creation">The Squad</h2>
+                <p>
+                    To start, pick 5 regular troopers that look cool. These guys are going to teach you how to play the
+                    game.
+                </p>
+
+                <h3>Movement and Equipment</h3>
+                <p>
+                    Each army trooper is assigned three attributes: Movement and Range in inches, rate of fire
+                    in number of rolls.
+                </p>
+
+                <table class="table table-dark">
+                    <thead>
+                        <tr>
+                            <td></td>
+                            <td>movement (inches)</td>
+                            <td>range (inches)</td>
+                            <td>rate of fire (n)</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>regular soldier</td>
+                            <td>6</td>
+                            <td>20</td>
+                            <td>1</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h2 id="tutorial-rules-setup">Setup</h2>
+                <p>
+                    The players need a table or some clear space on the floor.
+                </p>
+                <h3>Deployment</h3>
+                <p>
+                    Setup your squad 24" away from your opponents squad, with all members no more than 4" apart.
+                </p>
+
+                <h2 id="tutorial-rules-turn-description">Turn Description</h2>
+                <p>
+                    Play is handled in turns, in each turn, a player may have each of his troopers take one action step
+                    (they may also choose to do nothing). An action step consists of two parts: Shooting and action. If
+                    the trooper is to shoot, they must shoot before moving, this is to give the advantage to a fixed
+                    position/ambush setup.
+                </p>
+
+                <h3>Phase 1: Shooting</h3>
+                <p>
+                    Shooting proceeds as follows: Select an enemy trooper as the target, then use the tape measure to
+                    determine if they are in range, and if there is a line of sight between the two troopers. If these
+                    conditions are met, the shooter rolls one dice per rate of fire, and kills the enemy trooper on a
+                    roll of 5+ if the enemy is in range, and 4+ if the enemy is within 1/2 of the maximum range. If the
+                    target moved in the previous turn, they are harder to hit and recieve a -1 modifier (e.g. a roll of 5
+                    at a distance greater than half the shooters range would miss).
+                </p>
+
+                <h3>Phase 2: Movement</h3>
+                <p>
+                    For movement, the trooper can move any distance up to the rated movement number of inches, and
+                    movement does not need to be in a straight line. troopers can climb obstacles as long as they are
+                    not taller than the trooper. No penalty is applied for climbing. Troopers moving beyond the edge of
+                    the table cannot be returned to play.
+                </p>
+
+                <h3>Phase 3: Combat</h3>
+                <p>
+                    If two opposing troopers come into contact, they will fight hand-to-hand, both players will roll
+                    1D6. The attacking player adds a +1 modifier to his score to account for inititiative. The lowest scoring 
+                    trooper will die. In the event of a tie, the fight will continue into the next turn. In the next
+                    turn, the attacked trooper can choose to run away, or continue the fight, this time scoring the 
+                    combat with no modifier.
+                </p>
+
+                <h3>The Inevitable End</h3>
+                <p>
+                    When a trooper dies, they are removed from the table. Dead troopers cannot be returned to play.
+                </p>
+            </div>
+
+            <div id="standard-rules" class="mt-5">
+                <h1>Standard Rules</h1>
+                <div class="warning pulsate">Coming Soon</div>
+                <!-- <p>
+                    The basic needs of the game are a place to play, a sack of army men, a tape measure or yardstick, and a
+                    six-sided die. Realism is not a goal, only fun. Also, this is intended to be a framework and we
+                    can update it as necessary to address balance issues, and add new features.
+                </p>
+                <h2 id="standard-rules-setup">Setup</h2>
+                <p>
+                    The players need to set up the board and create armies before the game can start.
+                </p>
+
+                <h3>Terrain</h3>
+                <p>
+                    Setup consists of clearing the table, and setting up any desired obstacles with books, cans,
+                    legos,
+                    whatever is handy. Both players should agree on obstacle placement. Players should also agree on
+                    the
+                    goal/setting of the engagement, points value of their respective armies, and terms of victory
+                    (annihilation, capture the flag, etc.).
+                </p>
+
+                <h4>Cover</h4>
+                <p>
+                    If any trooper is more than half concealed by terrain they are considered in cover, and is has a
+                    +1
+                    modifier to hit (e.g. if a trooper is within half range the shooter would need to roll a 6
+                    instead of a
+                    5+). If a target trooper is at more than half range (and in cover), they are considered safe
+                    from fire.
+                    Vehicles do not benefit from cover due to their size.
+                </p>
+
+                <h3>Possible Scenario: Capture the Flag</h4>
+                <p>
+                    Agree on a location and place a marker on the board to designate a strategic objective. Roll
+                    2D6 to
+                    determine the number of troopers (sargents, regular guys, etc.) you need to have within 1D6
+                    inches
+                    at the beginning of 1D3 turns for that player (e.g. 7 troopers within 4" of the marker for
+                    the start
                     of 2 turns to win the game).
                 </p>
 
 
                 <h2 id="standard-rules-army-creation">Army Creation</h2>
                 <p>
-                    To keep things as even as possible use the following point system. Decide on a total number of
-                    points for the competing armies before you start. They don't need to be the same if for example one
+                    To keep things as even as possible use the following point system. Decide on a total number
+                    of
+                    points for the competing armies before you start. They don't need to be the same if for
+                    example one
                     army is defending a base and has cover.
                 </p>
 
 
                 <h3>Troops</h3>
                 <p>
-                    Squads are 5-10 troopers. Each squad can include a sargent. A normal squad may have up to two
+                    Squads are 5-10 troopers. Each squad can include a sargent. A normal squad may have up to
+                    two
                     special weapons in it (2 submachine guns, 2 heavy weapons, or a combination).
                 </p>
 
@@ -112,14 +219,17 @@
                 </table>
                 <h4>Leadership</h4>
                 <p>
-                    Troopers must stay within 4" of another squad member. If they are not for some reason then all dice
-                    rolls for this individual have a +1 modifier (e.g. 5's rolled for them will count as 6's to show
+                    Troopers must stay within 4" of another squad member. If they are not for some reason then
+                    all dice
+                    rolls for this individual have a +1 modifier (e.g. 5's rolled for them will count as 6's to
+                    show
                     reduced morale).
                 </p>
 
                 <h4>Movement and Equipment</h4>
                 <p>
-                    Each type of army trooper is assigned three attributes: Movement and Range in inches, rate of fire
+                    Each type of army trooper is assigned three attributes: Movement and Range in inches, rate
+                    of fire
                     in number of rolls.
                 </p>
 
@@ -153,22 +263,29 @@
                         </tr>
                         <tr>
                             <td>heavy</td>
-                            <td colspan=3 align="center"><a href="#stardard-rules-area-effect-table">see table below</a></td>
+                            <td colspan=3 align="center"><a href="#stardard-rules-area-effect-table">see table
+                                    below</a>
+                            </td>
                         </tr>
                     </tbody>
                 </table>
 
                 <p>
-                    Prone men have half the movement, but double the range of a standing army trooper. Regular men
-                    cannot be switched back and forth with prone men. For simplicity, kneeling men are considered to be
+                    Prone men have half the movement, but double the range of a standing army trooper. Regular
+                    men
+                    cannot be switched back and forth with prone men. For simplicity, kneeling men are
+                    considered to be
                     standing.
                 </p>
 
                 <h4>Area Effect Weapons</h4>
                 <p>
-                    Area effect weapons (except grenades) are heavy and hard to move, so the trooper cannot fire and
-                    move in the same turn. When shooting an area effect weapon, the shooting player selects a target
-                    trooper (must have line of sight to aim), all troopers (on any side) within 6" of the target trooper
+                    Area effect weapons (except grenades) are heavy and hard to move, so the trooper cannot fire
+                    and
+                    move in the same turn. When shooting an area effect weapon, the shooting player selects a
+                    target
+                    trooper (must have line of sight to aim), all troopers (on any side) within 6" of the target
+                    trooper
                     must roll 1D6 and if a 6 is rolled, that trooper is toast.
                 </p>
                 <table id="stardard-rules-area-effect-table" class="table table-dark">
@@ -202,54 +319,66 @@
                     </tbody>
                 </table>
 
-
-
                 <h3>Vehicles</h3>
-                <p>There are some vehicles that your army can be outfitted with like boats and tanks. They are useful
+                <p>There are some vehicles that your army can be outfitted with like boats and tanks. They are
+                    useful
                     for different scenarios.</p>
                 <h4>Tanks</h4>
 
-
                 <h4>Boats</h4>
-
-
 
                 <h2 id="standard-rules-turn-description">Turn Description</h2>
                 <p>
-                    Play is handled in turns, in each turn, a player may have each of his troopers take one action step
-                    (they may also choose to do nothing). An action step consists of two parts: Shooting and action. If
-                    the trooper is to shoot, he must shoot before moving, this is to give the advantage to a fixed
+                    Play is handled in turns, in each turn, a player may have each of his troopers take one
+                    action step
+                    (they may also choose to do nothing). An action step consists of two parts: Shooting and
+                    action. If
+                    the trooper is to shoot, they must shoot before moving, this is to give the advantage to a
+                    fixed
                     position/ambush setup.
                 </p>
 
                 <h3>Phase 1: Shooting</h3>
                 <p>
-                    Shooting proceeds as follows: Select an enemy trooper as the target, then use the tape measure to
-                    determine if he is in range, and if there is a line of sight between the two troopers. If these
-                    conditions are met, the shooter rolls one dice per rate of fire, and kills the enemy trooper on a
-                    roll of 6 if the enemy is in range, and 5 or 6 if the enemy is within 1/2 of the maximum range.
+                    Shooting proceeds as follows: Select an enemy trooper as the target, then use the tape
+                    measure to
+                    determine if they are in range, and if there is a line of sight between the two troopers. If
+                    these
+                    conditions are met, the shooter rolls one dice per rate of fire, and kills the enemy trooper
+                    on a
+                    roll of 6 if the enemy is in range, and 5 or 6 if the enemy is within 1/2 of the maximum
+                    range.
                 </p>
 
                 <h3>Phase 2: Movement</h3>
                 <p>
-                    For movement, the trooper can move any distance up to the rated movement number of inches, and
-                    movement does not need to be in a straight line. troopers can climb obstacles as long as they are
-                    not taller than the trooper. No penalty is applied for climbing. Prone troopers can climb the height
-                    of a standard trooper. troopers moving beyond the edge of the table cannot be returned to play.
+                    For movement, the trooper can move any distance up to the rated movement number of inches,
+                    and
+                    movement does not need to be in a straight line. troopers can climb obstacles as long as
+                    they are
+                    not taller than the trooper. No penalty is applied for climbing. Prone troopers can climb
+                    the height
+                    of a standard trooper. troopers moving beyond the edge of the table cannot be returned to
+                    play.
                 </p>
 
                 <h3>Phase 3: Combat</h3>
                 <p>
-                    If two opposing troopers come into contact, they will fight hand-to-hand, both players will roll
-                    1D6. The attacking player can add 1 to his score. The lowest scoring trooper will die. In the event
-                    of a tie, the fight will continue into the next turn. In the next turn, niether trooper can attack,
+                    If two opposing troopers come into contact, they will fight hand-to-hand, both players will
+                    roll
+                    1D6. The attacking player can add 1 to his score. The lowest scoring trooper will die. In
+                    the event
+                    of a tie, the fight will continue into the next turn. In the next turn, niether trooper can
+                    attack,
                     and the attacked trooper can choose to run away, or continue the fight, taking the attack +1
                     advantage.
                 </p>
                 <h3>The Inevitable End</h3>
                 <p>
-                    When a trooper dies, he is removed from the table. Dead troopers cannot be returned to play.
-                </p>
+                    When a trooper dies, they are removed from the table. Dead troopers cannot be returned to
+                    play.
+                </p> -->
+            </div>
         </div>
         <div class="col-5 sidebar">
             <h1>Equipment</h1>
@@ -262,26 +391,27 @@
                         <li>Yardstick</li>
                         <li>Standard Dice (D6)</li>
                     </ul>
-                    <li>Optional</li>
+                    <!-- <li>Optional</li>
                     <ul>
                         <li>Terrain</li>
                         <li>Snacks</li>
                         <li>Extra Dice</li>
-                    </ul>
+                    </ul> -->
                     <li>Reference Material</li>
                     <ul>
-                        <li><a href="https://armymenwargaming.files.wordpress.com/2018/05/wwii-infantry-tactics.pdf">WWII
-                                Tactics Background</a></li>
-                        <li><a href="https://www.classictoysoldiers.com/index.htm">Toy Soldier Shop</a></li>
-                        <li><a href="https://user.xmission.com/~bifft/armymen/index.html">Starting Point</a></li>
-                        <li><a href="http://alliancemartialarts.com/1BCToySoldiers.pdf">Alternative Rules for Play</a>
-                        </li>
-                        <li><a href="https://www.angelfire.com/games2/warpspawn/GPM.html">Alternative Rules for Play
-                                (silly)</a></li>
-                        <li><a href="https://combatstorm.com/products/combat-storm-2nd-edition-digital-edition">Alternative
-                                Rules for Play (expensive)</a></li>
-                        <li><a href="https://s3-us-west-2.amazonaws.com/peg-savage-worlds/Showdown.pdf?">Alternative
-                                Rules for Play (general)</a></li>
+                        <li><a href="files/wells-little-wars.pdf">Genesis</a></li>
+                        <li><a href="original.html">Starting point for this rule set.</a></li>
+                        <li><a href="files/wwii-infantry-tactics.pdf">WWII Tactics Background</a></li>
+
+
+
+
+                        
+                        <!-- <li><a href="https://www.classictoysoldiers.com/index.htm">Toy Soldier Shop</a></li> -->
+                        <!-- <li><a href="http://alliancemartialarts.com/1BCToySoldiers.pdf">Alternative Rules for Play</a></li> -->
+                        <!-- <li><a href="https://www.angelfire.com/games2/warpspawn/GPM.html">Alternative Rules for Play (silly)</a></li> -->
+                        <!-- <li><a href="https://combatstorm.com/products/combat-storm-2nd-edition-digital-edition">Alternative Rules for Play (expensive)</a></li> -->
+                        <!-- <li><a href="https://s3-us-west-2.amazonaws.com/peg-savage-worlds/Showdown.pdf?">Alternative Rules for Play (general)</a></li> -->
                     </ul>
                 </ul>
             </div>
