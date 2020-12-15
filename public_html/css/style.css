@@ -7,17 +7,52 @@ body {
     font-family: 'Cutive Mono', monospace;
 }
 
+a {
+    color: orange;
+}
+
+a:hover {
+    text-decoration-style: dotted
+}
+
 p {
-    background-color: rgba(150,150,150,.5);
+    background-color: rgba(150,150,150,.8);
     padding: 0.5em;
     border-radius: 3px;
     font-family: 'Roboto Slab', serif;
+    border: 1px solid black;
+
 }
 
+table {
+    /* background-color: #212529; */
+    border: 1px solid black;
+    border-radius: 5px;
+    /* width: 50%; */
+    border-spacing: 0px;
+    border-collapse: separate;
+}
+/* table th {
+    font-weight: 600;
+    font-size: 1.1em;
+    text-align: center;
+    background: #c6c6c6;
+}
+table td {
+    background: transparent;
+} */
+
 .highlight {
-    background-color: rgba(150,150,150,.5);
+    background-color: rgba(150,150,150,.8);
     padding: 0.5em;
     border-radius: 3px;
     margin-bottom: 2em;
     font-family: 'Roboto Slab', serif;
+    border: 1px solid black;
+}
+
+.sidebar{
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
 }
