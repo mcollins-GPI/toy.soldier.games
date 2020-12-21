@@ -35,6 +35,12 @@ h2 {
     margin-top: 2em;
 }
 
+img {
+    width: 100%;
+    margin-bottom: 1em;
+    border-radius: 3px;
+    border: 1px solid black;
+}
 
 .highlight {
     background-color: rgba(150,150,150,.8);
