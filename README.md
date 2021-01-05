@@ -6,6 +6,7 @@ a website to serve as repository for table top toy soldier game rules
  - the area of the game might hit a snag because the player doesn't have incentive to move away from their flag
  - doing something for setting up troopers that aren't seen would be cool too, like maybe a way for them to hide to get a bonus to hit
  - you could also change it so that you can move before shooting but have to roll higher to hit. I just see a scenario where nobody wants to move 
+ 
  - move then shoot +1 modifier
  - I have a idea. What if the raft is two hits and when that is destroyed the people on the raft go in the water you only need to roll a three if they did not move
  - vehicles have 10 hits can move 10 inches

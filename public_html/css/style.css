@@ -43,6 +43,8 @@ img {
 }
 
 .highlight {
+    display: block;
+    position: relative;
     background-color: rgba(150,150,150,.8);
     padding: 0.5em;
     border-radius: 3px;
@@ -51,6 +53,32 @@ img {
     border: 1px solid black;
 }
 
+.highlight.has-side-title { 
+    border-left-width: 1.5em;
+}
+
+.side-title {
+   /* Abs positioning makes it not take up vert space */
+   position: absolute;
+   top: 0;
+   left: 0;
+   /* text-align: center; */
+
+   /* padding: 0.25em; */
+ 
+   /* Border is the new background */
+   background: none;
+   margin: 0.5em 0;
+   width: auto;
+ 
+   /* Rotate from top left corner (not default) */
+   transform-origin: top left;
+   transform: rotate(90deg);
+}
+
+.description{
+    padding-bottom: 0.5em;
+}
 .sidebar{
     position: -webkit-sticky; /* Safari */
     position: sticky;
